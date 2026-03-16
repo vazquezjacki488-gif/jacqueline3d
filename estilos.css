@@ -1,0 +1,122 @@
+/* Estilo general del cuerpo de la página */
+body{
+font-family: Arial, Helvetica, sans-serif;
+/* Define el tipo de letra de toda la página */
+
+background-color:#4e95ad;
+/* Define el color de fondo de la página */
+
+margin:0;
+/* Elimina el margen por defecto del navegador */
+}
+
+/* Estilo de la tabla principal que organiza toda la página */
+table{
+width:90%;
+/* Define el ancho de la tabla al 90% de la pantalla */
+
+margin:auto;
+/* Centra la tabla horizontalmente */
+
+border-collapse:collapse;
+/* Une los bordes de la tabla para que se vean como uno solo */
+}
+
+/* Estilo general para todas las celdas de la tabla */
+td{
+padding:20px;
+/* Agrega espacio interno dentro de cada celda */
+}
+
+/* Estilo del encabezado */
+.header{
+background-color:#273542;
+/* Color de fondo del encabezado */
+
+color:rgb(144, 191, 236);
+/* Color del texto */
+
+text-align:center;
+/* Centra el texto */
+
+font-size:28px;
+/* Tamaño de letra */
+
+font-weight:bold;
+/* Hace el texto en negrita */
+}
+
+/* Estilo del menú de navegación */
+.menu{
+background-color:#b45e7c;
+/* Color de fondo del menú */
+
+text-align:center;
+/* Centra los enlaces del menú */
+}
+
+/* Estilo de los enlaces dentro del menú */
+.menu a{
+color:rgb(88, 35, 108);
+/* Color del texto del enlace */
+
+text-decoration:none;
+/* Quita el subrayado del enlace */
+
+margin:15px;
+/* Espacio entre cada enlace */
+
+font-weight:bold;
+/* Texto en negrita */
+}
+
+/* Efecto cuando el mouse pasa sobre el enlace */
+.menu a:hover{
+color:#ffd166;
+/* Cambia el color del enlace al pasar el mouse */
+}
+
+/* Estilo del banner */
+.banner{
+background-color:#ca6ac0;
+/* Color de fondo del banner */
+
+text-align:center;
+/* Centra el texto */
+
+font-size:20px;
+/* Tamaño del texto */
+}
+
+/* Estilo del contenido principal */
+.contenido{
+background-color:white;
+/* Color de fondo del contenido principal */
+
+width:70%;
+/* El contenido ocupa el 70% del ancho */
+}
+
+/* Estilo de la barra lateral */
+.sidebar{
+background-color:#f1f1f1;
+/* Color de fondo de la barra lateral */
+
+width:30%;
+/* La barra lateral ocupa el 30% del ancho */
+}
+
+/* Estilo del pie de página */
+.footer{
+background-color:#3f566c;
+/* Color de fondo del pie de página */
+
+color:rgb(224, 234, 161);
+/* Color del texto */
+
+text-align:center;
+/* Centra el contenido */
+
+font-size:14px;
+/* Tamaño del texto */
+}
